@@ -1,0 +1,188 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #d7d7d7 url(/images/bg.jpg); }
+
+div#content {
+  margin-top: 44px; }
+
+div#global_nav_bar {
+  height: 40px;
+  background: #333333;
+  color: #FFFFFF;
+  border-top: 2px solid #828282;
+  border-bottom: 2px solid #828282;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  overflow: visible; }
+  div#global_nav_bar h1 {
+    padding-top: 7px;
+    margin: 0px 0px 0px 20px;
+    height: 30px;
+    font-size: 26px; }
+  div#global_nav_bar a.authentication_link {
+    font-size: 14px;
+    margin-top: 13px;
+    text-align: right;
+    color: #FFFFFF; }
+
+div.project_header {
+  margin-top: 30px;
+  margin-bottom: 20px; }
+  div.project_header div.project_img {
+    height: 75px;
+    width: 95px;
+    background: white; }
+  div.project_header div.project_abstract {
+    height: 35px;
+    max-width: 840px;
+    width: auto;
+    margin-left: 5px;
+    background: white;
+    padding: 20px 10px 20px 10px; }
+    div.project_header div.project_abstract h1 {
+      font-size: 22px; }
+    div.project_header div.project_abstract div {
+      padding-right: 140px; }
+    div.project_header div.project_abstract a.project_details {
+      float: right;
+      font-size: 11px;
+      color: #999999; }
+
+div#project_nav_bar {
+  font-size: 15px;
+  height: 35px;
+  background: #4D4D4D;
+  margin-bottom: 5px; }
+  div#project_nav_bar li {
+    float: left;
+    padding: 10px 20px 10px 20px; }
+    div#project_nav_bar li a {
+      display: block;
+      color: #6A6A6A;
+      font-weight: bold; }
+    div#project_nav_bar li a.active {
+      color: white; }
+
+div#jam div.section_header {
+  margin: 30px 20px 30px 20px;
+  border-bottom: 1px solid #D1D1D1; }
+  div#jam div.section_header a.details {
+    float: right;
+    margin-top: 7px;
+    font-size: 11px;
+    color: #999999; }
+  div#jam div.section_header a.action {
+    font-size: 11px; }
+  div#jam div.section_header h1 {
+    font-size: 18px;
+    display: inline; }
+div#jam div#milestones_sidebar {
+  background: white;
+  padding-bottom: 60px; }
+  div#jam div#milestones_sidebar a.show_all {
+    margin: 0px 0px 10px 20px;
+    display: inline-block;
+    padding: 10px;
+    background: #54A0D2;
+    color: white; }
+  div#jam div#milestones_sidebar div#milestones li.milestone:first-child {
+    border-top: 1px solid #D1D1D1; }
+  div#jam div#milestones_sidebar div#milestones li.milestone {
+    height: 30px;
+    font-size: 12px;
+    border-bottom: 1px solid #D1D1D1; }
+    div#jam div#milestones_sidebar div#milestones li.milestone a {
+      display: block;
+      padding: 9px 20px 9px 20px; }
+    div#jam div#milestones_sidebar div#milestones li.milestone a.active {
+      pointer-events: none;
+      cursor: default;
+      background: #54A0D2;
+      color: white; }
+div#jam div#tasks_section {
+  background: white;
+  width: 595px;
+  margin-left: 5px;
+  padding-bottom: 60px; }
+  div#jam div#tasks_section div.section_header {
+    margin-bottom: 5px; }
+  div#jam div#tasks_section div.filters {
+    margin: 0px 20px 20px 20px;
+    height: 30px; }
+    div#jam div#tasks_section div.filters li {
+      float: left; }
+      div#jam div#tasks_section div.filters li a {
+        display: block;
+        font-size: 12px;
+        padding: 8px 15px 8px 15px;
+        color: #999999; }
+      div#jam div#tasks_section div.filters li a.active {
+        pointer-events: none;
+        cursor: default;
+        background: #54A0D2;
+        color: white; }
+  div#jam div#tasks_section div#tasks {
+    margin: 0px 20px 0px 20px; }
+    div#jam div#tasks_section div#tasks tr.task {
+      height: 30px;
+      background: #808080;
+      width: 100%;
+      float: left;
+      margin-bottom: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px; }
+      div#jam div#tasks_section div#tasks tr.task td {
+        height: 30px;
+        color: white;
+        padding: 0px; }
+        div#jam div#tasks_section div#tasks tr.task td span.borders {
+          border-right: 1px dotted #D1D1D1;
+          width: 99%;
+          height: 21px;
+          display: block;
+          padding-top: 9px; }
+      div#jam div#tasks_section div#tasks tr.task td.task_checkbox {
+        width: 13px;
+        padding-left: 9px; }
+      div#jam div#tasks_section div#tasks tr.task td.task_name {
+        width: 290px;
+        padding-left: 9px; }
+      div#jam div#tasks_section div#tasks tr.task td.task_color {
+        width: 21px;
+        background: green; }
+      div#jam div#tasks_section div#tasks tr.task td.task_files_count {
+        width: 42px;
+        text-align: center;
+        font-size: 12px; }
+        div#jam div#tasks_section div#tasks tr.task td.task_files_count span.borders {
+          border-left: 1px dotted #D1D1D1; }
+      div#jam div#tasks_section div#tasks tr.task td.task_comments_count {
+        width: 42px;
+        text-align: center;
+        font-size: 12px; }
+      div#jam div#tasks_section div#tasks tr.task td.task_overdue {
+        width: 49px;
+        font-size: 9px;
+        text-align: center; }
+      div#jam div#tasks_section div#tasks tr.task td.overdue {
+        background: red; }
+        div#jam div#tasks_section div#tasks tr.task td.overdue span.borders {
+          padding-top: 11px;
+          height: 19px; }
+      div#jam div#tasks_section div#tasks tr.task td.task_date {
+        width: 56px;
+        text-align: center;
+        font-size: 12px; }
+      div#jam div#tasks_section div#tasks tr.task td.task_destroy {
+        width: 23px;
+        text-align: right;
+        padding-right: 9px; }
+        div#jam div#tasks_section div#tasks tr.task td.task_destroy a {
+          color: white;
+          display: inline-block;
+          margin-bottom: 13px; }

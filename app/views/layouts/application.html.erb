@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JDesign1</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+  <div id="global_nav_bar">
+    <div class="container">
+      <div class="row">
+        <h1 class="span3">JAMEEN</h1>
+        <a id="log_off" class="authentication_link span3 offset10" href="#">Log off</a>
+      </div>
+    </div>
+  </div>
+  
+  <div id="content" class="container">
+    <%= yield %>
+  </div>  
+</body>
+</html>
